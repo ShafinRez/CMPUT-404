@@ -1,10 +1,7 @@
 import requests
 
-#question 1
-# https://github.com/ShafinRez/CMPUT-404.git
 
-#question 2
+#question 2 and 3
+print(requests.__version__)
 
-version = requests.__version__
-print('1.' + version)
 
