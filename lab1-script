@@ -1,1 +1,24 @@
-print(pip list)
+import requests
+
+#question 1
+# https://github.com/ShafinRez/CMPUT-404.git
+
+#question 2
+
+version = requests.__version__
+print('1.' + version)
+
+
+#question 3
+#path = '\lab1\lab1\Scripts'
+#execfile(path, dict(__file__=path))
+
+
+
+# question 5
+
+url = "https://google.com"
+req = requests.get(url)
+
+print('4.'+ req.status_code)
+
