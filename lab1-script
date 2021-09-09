@@ -1,7 +1,16 @@
 import requests
-
+import urllib.request
 
 #question 2 and 3
 print(requests.__version__)
 
 
+# question 8
+# used https://realpython.com/python-web-scraping-practical-introduction/ written by
+# Daniel Amos (date written not specified) 
+# to understand how to open a url in python and then
+# read its contents 
+url = "https://raw.githubusercontent.com/ShafinRez/CMPUT-404/master/lab1-script"
+file = urllib.request.urlopen(url)
+file = file.read().decode("utf-8")
+print(file)

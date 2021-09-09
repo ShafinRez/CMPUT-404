@@ -1,9 +1,10 @@
 1. https://github.com/ShafinRez/CMPUT-404.git
 2. 1.2.26.0
 3. 1.2.26.0
-4. 
-5. 301, https://google.com
-6. 301 returned by both commands.  -iL also returns 418. Returns code 418
-7. 
+4. The virtual environment isolates python to have only the choosen librarys.
+5. 301, visit https://google.com to get 200 site code.
+6. 301 returned by -i.  -iL returns 301 and 418. Using http://www.google.com/teapot you only get the 418.
+7. Changed the request methond from GET to POST. THe post method is used to submit something to the site.
+8. https://raw.githubusercontent.com/ShafinRez/CMPUT-404/master/lab1-script
 
 
