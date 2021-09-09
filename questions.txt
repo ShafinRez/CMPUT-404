@@ -1,0 +1,9 @@
+1. https://github.com/ShafinRez/CMPUT-404.git
+2. 1.2.26.0
+3. 1.2.26.0
+4. 
+5. 301, https://google.com
+6. 301 returned by both commands.  -iL also returns 418. Returns code 418
+7. 
+
+

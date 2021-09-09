@@ -8,17 +8,3 @@ import requests
 version = requests.__version__
 print('1.' + version)
 
-
-#question 3
-#path = '\lab1\lab1\Scripts'
-#execfile(path, dict(__file__=path))
-
-
-
-# question 5
-
-url = "https://google.com"
-req = requests.get(url)
-
-print('4.'+ req.status_code)
-
