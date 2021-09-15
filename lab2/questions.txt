@@ -1,0 +1,8 @@
+srezwan
+1. use socket.SOCK_STREAM
+2. client socket connects to a server and sends data to that server. 
+Server socket recieves a connection from a client and returns what is sent to it.
+3. s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+4. IP address and socket connection
+5. returns 0 by default
+6.
