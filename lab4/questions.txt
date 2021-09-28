@@ -1,0 +1,20 @@
+srezwan 
+
+1. https://github.com/ShafinRez/CMPUT-404-Labs.git
+2. 'The install worked successfully! Congratulations!' A rocket ship animation.
+3. 'Hello, world. You're at the polls index.'
+4. migarations save changes you make to your model into your database. In our case we added questions and choice polls.
+So we need to add that schema into the database. 
+5. you see a ui made for admins that can add polls, users and groups. Changing models.py will change the database
+and then calling that file in admin.py will allow you to register that new model. 
+6. polls/38 : You're looking at question 38.
+
+polls/38/results : You're looking at the results of question 38.
+polls/38/vote : You're voting on question 38.
+string entered: Page not found
+modify to allow arbitrary characters: change from int to str
+ path('<str:question_id>/', views.detail, name='detail')
+
+7. if you want to change urls in the future it makes it inconvient. Linking wrong pages can happen.
+8. Generic views are used to reduce and simplify code.
+Use generic views when there is similar functions that repeat code.
